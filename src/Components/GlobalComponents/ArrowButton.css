@@ -1,0 +1,6 @@
+  .listings-button::after {
+    content: url("C:\Users\User\Desktop\Proiecte\React\ui-challenge\src\Images\Path-yellow.png");
+  }
+  .listings-button{
+    width: 210px;
+  }

@@ -1,0 +1,20 @@
+.apartmentCard{
+    background: #FFFFFF;
+    box-shadow: 0px 32px 34px rgba(0, 0, 0, 0.133714);
+    border-radius: 25px;
+    max-width: 340px;
+    color: black;
+    margin: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+    width: auto;
+    }
+.iconFilter{
+    padding-left: 20px;
+}
+.border-top{
+    border-top: solid 1px #E4E4E4;;
+}
+.border-right{
+    border-right: solid 1px #E4E4E4;
+}

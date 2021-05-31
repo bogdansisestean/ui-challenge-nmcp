@@ -1,0 +1,19 @@
+.filterProperties {
+  background: #ffffff;
+  box-shadow: 0px 32px 34px rgba(0, 0, 0, 0.133714);
+  border-radius: 25px;
+  height: 120px;
+  margin-bottom: 100px;
+}
+.borderRight{
+    border-right: solid 1px #E4E4E4;
+}
+.apartments_filter{
+  padding-top: 100px;
+  padding-bottom: 100px; 
+  background: #F5F5F5;
+  max-width: 100%;
+}
+.apartments-listed{
+  margin: 0 auto;
+}

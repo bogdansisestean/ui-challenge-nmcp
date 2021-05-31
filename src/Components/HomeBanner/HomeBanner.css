@@ -1,0 +1,29 @@
+.home-banner {
+  height: 100vh;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  background: linear-gradient(
+      198.73deg,
+      rgba(0, 0, 0, 0.0001) 15.31%,
+      rgba(0, 0, 0, 0.837986) 67.37%
+    ),
+    url("C:\Users\User\Desktop\Proiecte\React\ui-challenge\src\Images\etienne-beauregard-riverin-B0aCvAVSX8E-unsplash (1).png");
+  background-size: cover;
+}
+.home-banner__dec {
+  width: 500px;
+}
+.white-font__home-banner_heading {
+  margin-top: 200px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 80px;
+  /* or 100% */
+
+  letter-spacing: -2.01026px;
+
+  color: #ffffff;
+}
