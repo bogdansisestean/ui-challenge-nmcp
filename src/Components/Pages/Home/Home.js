@@ -24,7 +24,8 @@ const Home = () => {
       <div class="blackBlock">
         <MainDescription
           title={"You're in good hands"}
-          fontColor={"white-font"}
+          headingFontColor={"white-font"}
+          fontColor={"white-font-opacity"}
           styleBackgroundColor={"blackBlock"}
           styleButtonColor={"btn-orange"}
         />

@@ -1,11 +1,14 @@
 import React from 'react';
 
-function LocationFilter() {
+function LocationFilter(props) {
+    const dropDownChangeHandler = (event) =>{
+        props.onChangeFilter(event.target.value);
+    }
     return (
         <div className="apartments-filter"> 
             <div className="apartments-filter__control">
                 <label>Location</label>
-                <select>
+                <select value={props.selected} onChange={dropDownChangeHandler}>
                     <option value="Texas">Texas</option>
                     <option value="New York">New Tork   </option>
                     <option value="Pheonix">Pheonix</option>

@@ -55,47 +55,68 @@ p {
   letter-spacing: -0.502564px;
 
   color: #ffffff;
-
 }
 .white-font-opacity {
   font-family: DM Sans;
-font-style: normal;
-font-weight: normal;
-font-size: 20px;
-line-height: 28px;
-/* or 140% */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  /* or 140% */
 
-letter-spacing: -0.502564px;
+  letter-spacing: -0.502564px;
 
-color: #FFFFFF;
-mix-blend-mode: normal;
-opacity: 0.6;
+  color: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.6;
 }
-.black-font{
+.white-font{
+  color: white;
+}
+.black-font {
   color: black;
 }
 /*buttons*/
-.vertical-aligned-btn{
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    width: auto;
+.vertical-aligned-btn {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: auto;
 }
-.btn-black{
+.btn-black {
   background-color: black;
   color: white;
   border-radius: 0px 18px 0px 0px;
-  height: 50px;
+  height: 70px;
 }
-.btn-orange{
-  background-color: #FFAC12;
+.btn-black::after {
+  padding-left: 20px;
+  content: url("C:\Users\User\Desktop\Proiecte\React\ui-challenge\src\Images\Path-yellow.png");
+}
+.btn-orange {
+  background-color: #ffac12;
   border-radius: 0px 18px 0px 0px;
   color: black;
-  height: 50px;
+  height: 70px;
 }
+.btn-orange::after {
+  padding-left: 20px;
+  content: url("C:\Users\User\Desktop\Proiecte\React\ui-challenge\src\Images\Path-light.png");
+}
+.btn-white {
+  background-color: white;
+  border-radius: 0px 18px 0px 0px;
+  color: black;
+  height: 70px;
+}
+.btn-white::after {
+  padding-left: 20px;
+  content: url("C:\Users\User\Desktop\Proiecte\React\ui-challenge\src\Images\Path-yellow.png");
+}
+
 /*blocks styling*/
-.blackBlock{
+.blackBlock {
   background-color: black;
 }
 

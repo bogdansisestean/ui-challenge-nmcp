@@ -8,7 +8,7 @@ const PicDescriptionBlock = (props) => {
   let PicDescriptionBlockContent;
   if (isRightToLeft === true) {
     PicDescriptionBlockContent = (
-      <div className="container">
+      <div className="container pic-desc__block">
         <div className="row align-items-center">
           <div className="col-6">
             <img src={pic1} className="round-img-desc" />

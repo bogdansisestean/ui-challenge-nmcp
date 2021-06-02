@@ -12,7 +12,7 @@ function Footer() {
                     <h2> Make your dreams a reality</h2>
                 </div>
                 <div class="col-6">
-                    <ArrowButton/>
+                    <ArrowButton styleButtonColor="btn-orange"/>
                 </div>
             </div>
             <div className="row">

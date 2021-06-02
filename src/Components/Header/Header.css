@@ -12,3 +12,19 @@
 .workWithUsButton:after {
   content: url("C:\Users\User\Desktop\Proiecte\React\ui-challenge\src\Images\Path-light.png");
 }
+.logo {
+  max-width: 200px;
+}
+.menu-header {
+  justify-content: flex-end;
+}
+@media only screen and (min-width: 600px) {
+  .navbarDesktop {
+    display: none;
+  }
+}
+@media only screen and (min-width: 991px) {
+  .burger-menu {
+    display: none;
+  }
+}

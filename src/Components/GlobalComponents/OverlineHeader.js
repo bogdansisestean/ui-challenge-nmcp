@@ -4,7 +4,7 @@ import './OverlineHeader.css'
 const OverlineHeader = (props) => {
 
   return (
-    <div className="overline-header">
+    <div className={"overline-header" + " " + props.style}>
       <h2>{props.title}</h2>
     </div>
   );

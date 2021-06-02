@@ -113,35 +113,36 @@ function ApartmentsFilters() {
   const LookingForFilterHandler = (selectedLookingFor) => {
     setLookingFor(selectedLookingFor);
   };
-  let filteredLookingFor = rentings.filter((rentings) => {
-    return rentings.lookingType === lookingFor;
-  });
-  const [locationSt, setLocationSt] = useState("Texas");
+   const [locationSt, setLocationSt] = useState("Texas");
   const LocationHandler = (selectedLocation) =>{
     setLocationSt(selectedLocation);
   };
+  let filteredLookingFor = rentings.filter((rentings) => {
+    return rentings.lookingType === lookingFor;
+  });
+ 
   // filteredLookingFor = rentings.filter((rentings) => {
   //   return rentings.location === locationSt;
   // })
   
   return (
     <div className="container apartments_filter">
-      <div className="row filterProperties boxed-item align-items-center">
-        <div className="col-3 borderRight">
+      <div className="row filterProperties boxed-item">
+        <div className="col-3 borderRight filterLabelStyle">
           <LookingForFilter
             selected={lookingFor}
             onChangeFilter={LookingForFilterHandler}
           />
         </div>
-        <div className="col-3 borderRight">
+        <div className="col-3 borderRight filterLabelStyle">
           <LocationFilter 
           selected={locationSt}
           onChangeFilter={LocationHandler}/>
         </div>
-        <div className="col-3 borderRight">
+        <div className="col-3 borderRight filterLabelStyle">
           <PropertyType />
         </div>
-        <div className="col-3">
+        <div className="col-3 filterLabelStyle">
           <Price />
         </div>
       </div>
