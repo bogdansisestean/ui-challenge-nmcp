@@ -4,19 +4,19 @@ import FacebookIcon from '../../Images/Social Media Icon/001-facebook.png'
 import TwitterIcon from '../../Images/Social Media Icon/003-twitter.png'
 import InstagramIcon from '../../Images/Social Media Icon/004-instagram.png'
 
-function Footer() {
+const Footer = () => {
     return (
         <div className="container">
             <div className="row">
-                <div class="col-6">
+                <div className="col-6">
                     <h2> Make your dreams a reality</h2>
                 </div>
-                <div class="col-6">
+                <div className="col-6">
                     <ArrowButton styleButtonColor="btn-orange"/>
                 </div>
             </div>
             <div className="row">
-                <div class="col-3">
+                <div className="col-3">
                     <img>
                     </img>
                     <div className="row">

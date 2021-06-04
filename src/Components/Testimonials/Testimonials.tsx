@@ -1,9 +1,9 @@
 import React from "react";
-import './Testimonials.css'
-import TestimonialCard from "../Testimonials/TestimonailCard";
+import "./Testimonials.css";
+import TestimonialCard from "./TestimonailCard";
 import pictureTestimonial1 from "../../Images/TestimonialPictures/Oval.png";
 
-function Testimonials() {
+const Testimonials = () => {
   const testimonials = [
     {
       name: "Lara Madrigal",
@@ -41,6 +41,6 @@ function Testimonials() {
       </div>
     </div>
   );
-}
+};
 
 export default Testimonials;

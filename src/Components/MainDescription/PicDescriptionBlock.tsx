@@ -3,8 +3,19 @@ import MainDescription from "./MainDescription";
 import "./PicDescriptionBlock.css";
 import pic1 from "../../Images/Content Image large (1).png";
 
-const PicDescriptionBlock = (props) => {
-  const isRightToLeft = props.isRightToLeftAlign;
+type Props = {
+  isRightToLeftAlign: boolean;
+  fontColor: string;
+  styleButtonColor: string;
+  styleBackgroundColor?: string;
+};
+const PicDescriptionBlock = ({
+  isRightToLeftAlign,
+  fontColor,
+  styleButtonColor,
+  styleBackgroundColor,
+}: Props) => {
+  const isRightToLeft: Boolean = isRightToLeftAlign;
   let PicDescriptionBlockContent;
   if (isRightToLeft === true) {
     PicDescriptionBlockContent = (
@@ -15,9 +26,9 @@ const PicDescriptionBlock = (props) => {
           </div>
           <div className="col-6">
             <MainDescription
-              fontColor={props.fontColor}
-              styleButtonColor={props.styleButtonColor}
-              styleBackgroundColor={props.styleBackgroundColor}
+              fontColor={fontColor}
+              styleButtonColor={styleButtonColor}
+              styleBackgroundColor={styleBackgroundColor}
               title={"You are in good hands"}
             />
           </div>
@@ -30,9 +41,9 @@ const PicDescriptionBlock = (props) => {
         <div className="row align-items-center">
           <div className="col-6">
             <MainDescription
-              fontColor={props.fontColor}
-              styleButtonColor={props.styleButtonColor}
-              styleBackgroundColor={props.styleBackgroundColor}
+              fontColor={fontColor}
+              styleButtonColor={styleButtonColor}
+              styleBackgroundColor={styleBackgroundColor}
               title={"You are in good hands"}
             />
           </div>
