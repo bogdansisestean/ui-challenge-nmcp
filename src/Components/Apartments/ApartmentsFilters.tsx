@@ -7,7 +7,7 @@ import ApartmentCard from "../Apartments/ApartmentCard";
 import Location1 from "../../Images/Apartments/House Example 1.png";
 import "./ApartmentsFilter.css";
 
-function ApartmentsFilters() {
+const ApartmentsFilters = () => {
   const rentings = [
     {
       image: Location1,
@@ -110,11 +110,11 @@ function ApartmentsFilters() {
     },
   ];
   const [lookingFor, setLookingFor] = useState("Renting");
-  const LookingForFilterHandler = (selectedLookingFor) => {
+  const LookingForFilterHandler = (selectedLookingFor: any) => {
     setLookingFor(selectedLookingFor);
   };
    const [locationSt, setLocationSt] = useState("Texas");
-  const LocationHandler = (selectedLocation) =>{
+  const LocationHandler = (selectedLocation: any) =>{
     setLocationSt(selectedLocation);
   };
   let filteredLookingFor = rentings.filter((rentings) => {

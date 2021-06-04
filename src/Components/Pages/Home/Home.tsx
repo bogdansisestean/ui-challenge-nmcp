@@ -21,7 +21,7 @@ const Home = () => {
         styleButtonColor={"btn-black"}
         isRightToLeftAlign={false}
       />
-      <div class="blackBlock">
+      <div className="blackBlock">
         <MainDescription
           title={"You're in good hands"}
           headingFontColor={"white-font"}
@@ -31,7 +31,7 @@ const Home = () => {
         />
       </div>
       <Testimonials />
-      <div class="blackBlock">
+      <div className="blackBlock">
         <Footer />
       </div>
     </div>

@@ -1,14 +1,20 @@
-import React from 'react'
+import React, { MouseEventHandler } from 'react'
 
-function LookingForFilter(props) {
-const dropDownChangeHandler = (event) =>{
-    props.onChangeFilter(event.target.value);
+type Props={
+    onChangeFilter: MouseEventHandler,
+    selected: string,
+    
+}
+
+const LookingForFilter =  ({onChangeFilter, selected}: Props) => {
+const dropDownChangeHandler = (event: any) =>{
+    onChangeFilter(event.target.value);
 }
     return (
         <div className="apartments-filter"> 
             <div className="apartments-filter__control">
                 <label>Looking for</label>
-                <select value={props.selected} onChange={dropDownChangeHandler}>
+                <select value={selected} onChange={dropDownChangeHandler}>
                     <option value="Renting">Renting</option>
                     <option value="Buying">Buying</option>
                     <option value="Loan">Loan</option>
