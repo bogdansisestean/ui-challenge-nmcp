@@ -1,6 +1,6 @@
 import React from "react";
 import MainDescription from "./MainDescription";
-import "./PicDescriptionBlock.css";
+import "./PicDescriptionBlock.scss";
 import pic1 from "../../Images/Content Image large (1).png";
 
 type Props = {

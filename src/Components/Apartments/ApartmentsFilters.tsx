@@ -5,7 +5,7 @@ import Price from "./Filters/Price";
 import PropertyType from "./Filters/PropertyType";
 import ApartmentCard from "../Apartments/ApartmentCard";
 import Location1 from "../../Images/Apartments/House Example 1.png";
-import "./ApartmentsFilter.css";
+import "./ApartmentsFilter.scss";
 
 const ApartmentsFilters = () => {
   const rentings = [
