@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../Header/Header";
 import ListingsOneRow from"../ListingsOneRow/ListingsOneRow";
-import "./HomeBanner.css";
+import "./HomeBanner.scss";
 
 const HomeBanner = () => {
   return (

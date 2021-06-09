@@ -1,6 +1,6 @@
 import React from "react";
 import ArrowButton from "../GlobalComponents/ArrowButton";
-import "./ListingsOneRow.css";
+import "./ListingsOneRow.scss";
 
 const ListingsOneRow = () => {
   const btnVerticalAlign = "vertical-aligned-btn";

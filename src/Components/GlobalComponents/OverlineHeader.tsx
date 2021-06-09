@@ -1,5 +1,5 @@
 import React from "react";
-import './OverlineHeader.css'
+import './OverlineHeader.scss'
 type Props ={
   style?: string,
   title: string

@@ -1,5 +1,5 @@
 import React from "react";
-import "./MainDescription.css";
+import "./MainDescription.scss";
 import ArrowButton from "../GlobalComponents/ArrowButton";
 import OverlineHeader from "../GlobalComponents/OverlineHeader";
 

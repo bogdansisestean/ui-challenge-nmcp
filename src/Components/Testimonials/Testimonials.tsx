@@ -1,5 +1,5 @@
 import React from "react";
-import "./Testimonials.css";
+import "./Testimonials.scss";
 import TestimonialCard from "./TestimonailCard";
 import pictureTestimonial1 from "../../Images/TestimonialPictures/Oval.png";
 

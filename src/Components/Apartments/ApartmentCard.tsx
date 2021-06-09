@@ -1,5 +1,5 @@
 import React from "react";
-import "./ApartmentCard.css";
+import "./ApartmentCard.scss";
 // import os from 'os';
 // import { type } from "node:os";
 import iconBeds from '../../Images/Apartments/Icons/Bed.png';
